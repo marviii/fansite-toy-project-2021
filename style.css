@@ -1,0 +1,107 @@
+  body {
+    padding-left: 15%;
+    padding-right: 15%;
+  }
+  .background {
+  background: rgb(247, 107, 107, 50%);
+  margin-top: -8px;
+  margin-bottom: -20px;
+  border: 5px solid black;
+  }
+  #video {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1000;
+  }
+  h1 {
+    font-family: sans-serif;
+    text-shadow: 2px 2px black;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+    padding: 1%;
+  }
+  p, q {
+    font-family: sans-serif;
+    text-indent: 50px;
+    font-size: large;
+    padding: 1%;
+  }
+  div.menu li {
+  border-radius: 6%;
+  text-shadow: 1px 1px rgb(0, 0, 0);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', Verdana, sans-serif;
+  font-size: 25px;
+  display: inline;
+  padding-left: 28px;
+  padding-right: 28px;
+  border: 1px solid black;
+  }
+  div.menu li:hover{
+  background-color: rgb(255, 98, 98);
+  }
+  div.menu a, a, label {
+    color: rgb(255, 0, 51);
+    text-decoration: none;
+    text-shadow: 1px 1px rgb(0, 0, 0);
+  }
+li {
+  display: inline;
+  font-size: larger;
+}
+#botao {
+  position: fixed;
+  bottom: 30px;
+  right: 50px;
+  padding: 1%;
+  border-radius: 40%;
+  background-color: rgb(255, 98, 98);
+}
+.login {
+  position: absolute;
+  padding-top: 32px;
+  padding-left: 5px;
+}
+input {
+  border-radius: 5%;
+  background-color: rgb(247, 231, 231);
+}
+.respostas {
+  display: block;
+}
+#episodios {
+  display: block;
+  padding: 5px;
+}
+
+table {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-align: center;
+  position: relative;
+  right: -7.5%;
+  border-collapse: collapse;
+}
+td {
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  border: 2px solid rgb(255, 0, 51);
+  background-color: rgb(255, 160, 160, 60%);
+}
+th  {
+  padding: 0.3em;
+  border: 2px solid rgb(255, 0, 51);
+  background-color: rgb(255, 98, 98, 60%);
+}
+div.jogos a {
+  border: 2px solid;
+  padding: 0.2em
+}
+div.jogos a:hover{
+  background-color:rgba(255, 64, 64, 0.795);
+}
+a :hover {
+  background-color:rgba(255, 64, 64, 0.795);
+}
